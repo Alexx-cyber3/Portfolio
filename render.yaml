@@ -3,7 +3,7 @@ services:
     name: arish-portfolio
     runtime: static
     buildCommand: npm install && npm run build
-    staticPublishPath: ./dist
+    staticPublishPath: ./.output/public
     envVars:
       - key: NODE_VERSION
         value: "20"
